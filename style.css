@@ -1,0 +1,446 @@
+/* 
+body style
+*/
+body{
+    font-family: "Poppins", sans-serif;
+    background-color:white;
+    color: #021526;
+  }
+  *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-transform: capitalize  ;
+    }
+/* 
+header style
+ */
+    header{
+      margin: 50px;
+    }
+    h1{
+      display: inline;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 35px;
+      color:  rgb(1, 153, 167);
+    }
+    input{
+      height: 40px;
+      width: 200px;
+      border-radius: 10px;
+    }
+    .bk{
+      position: absolute;
+      left: 310px;
+      font-size: 25px;
+      top: 0px;
+      
+    }
+    .nk{
+      position: absolute;
+      left: 250px;
+      font-size: 25px;
+      top: 0px;
+      
+    }
+    .kl{
+      position: absolute;
+      left: 145px;
+      font-size: 25px;
+      top: 0px;
+      
+    }
+    .search{
+      display: inline;
+      margin-left: 800px;
+      position: relative;
+    }
+    i{
+      display: inline;
+      font-size: 35px;
+      padding-left: 15px;
+    }
+    /* 
+    all-list
+     */
+     ul,li{
+      display: inline-block;
+     }
+     ul{
+      background-color: rgb(1, 153, 167);
+      color: white;
+      width: 100%;
+      margin-top: 20px;
+      padding: 5px;
+      border-radius: 10px;
+      
+     }
+     li{
+      margin-left: 50px;
+      
+      padding: 5px;
+      font-size: 20px;
+     }
+     ul:hover{
+      background-color: rgb(1, 153, 167);
+     }
+     li:hover{
+      color: black;
+      cursor: pointer;
+     }
+     /* 
+     section
+      */
+      section{
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+      .container1{
+        display: flex;
+      }
+      .img1{
+        background: url(Guru\ 1.png);
+        height: 500px;
+        width: 500px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        flex-basis: 50%;
+        flex-grow: 1;
+        border-radius: 10px;
+        margin: 20px;
+        transition: all 2ms 2ms ease-out;
+      }
+      .img1:hover{
+        background: url(Guru1.jpg);
+        height: 500px;
+        width: 500pxpx;
+        background-size: contain;
+        background-repeat: no-repeat;
+        flex-basis: 50%;
+        flex-grow: 1;
+        margin: 20px;
+      }
+      .img2{
+        background: url(Guru\ 2.png);
+        height: 500px;
+        width: 500px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        flex-basis: 50%;
+        flex-grow: 1;
+        border-radius: 10px;
+        margin: 20px;
+        transition: all 2ms 2ms ease-out;
+      }
+      .img2:hover{
+        background: url(Guru\ 2.jpg);
+        height: 500px;
+        width: 500px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        flex-basis: 50%;
+        flex-grow: 1;
+        margin: 20px;
+      }
+      .img3{
+        background: url(Guru\ 3.png);
+        height: 500px;
+        width: 500px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        flex-basis: 50%;
+        flex-grow: 1;
+        border-radius: 10px;
+        
+        margin: 20px;
+        transition: all 2ms 2ms ease-out;
+      }
+      .img3:hover{
+        background: url(Guru\ 3.jpg);
+        height: 500px;
+        width: 500px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        flex-basis: 50%;
+        flex-grow: 1;
+        margin: 20px;
+      }
+
+/* 
+container two
+ */
+
+      .container2{
+        display: flex;
+        margin-top: 30px;
+      }
+      .img4{
+        background: url(Guru4.png);
+        height: 500px;
+        width: 500px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        flex-basis: 50%;
+        flex-grow: 1;
+        border-radius: 10px;
+        margin: 20px;
+        transition: all 2ms 2ms ease-out;
+      }
+      .img4:hover{
+        background: url(Guru\ 4.jpg);
+        height: 500px;
+        width: 500px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        flex-basis: 50%;
+        flex-grow: 1;
+        margin: 20px;
+      }
+      .img5{
+        background: url(Guru\ 5.png);
+       
+        background-size: contain;
+        background-repeat: no-repeat;
+        flex-basis: 50%;
+        flex-grow: 1;
+        border-radius: 10px;
+        margin: 20px;
+        transition: all 2ms 2ms ease-out;
+      }
+      .img5:hover{
+        background: url(Guru\ 5.jpg);
+       
+        background-size: contain;
+        background-repeat: no-repeat;
+        flex-basis: 50%;
+        flex-grow: 1;
+        margin: 20px;
+      }
+      .img6{
+        background: url(Guru\ 6.png);
+       
+        background-size: contain;
+        background-repeat: no-repeat;
+        flex-basis: 50%;
+        flex-grow: 1;
+        border-radius: 10px;
+       
+        margin: 20px;
+        transition: all 2ms 2ms ease-out;
+      }
+      .img6:hover{
+        background: url(Guru\ 6.jpg);
+       
+        background-size: contain;
+        background-repeat: no-repeat;
+        flex-basis: 50%;
+        flex-grow: 1;
+        margin: 20px;
+      }
+
+/* 
+container3
+ */
+      .container3{
+        display: flex;
+      }
+      .img7{
+        background: url(Guru\ 7.png);
+        height: 500px;
+        width: 500px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        flex-basis: 50%;
+        flex-grow: 1;
+        border-radius: 10px;
+        margin: 20px;
+        transition: all 2ms 2ms ease-out;
+      }
+      .img7:hover{
+        background: url(Guru\ 7.jpg);
+        height: 500px;
+        width: 500px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        flex-basis: 50%;
+        flex-grow: 1;
+        margin: 20px;
+      }
+      .img8{
+        background: url(Guru\ 8.png);
+       
+        background-size: contain;
+        background-repeat: no-repeat;
+        flex-basis: 50%;
+        flex-grow: 1;
+        border-radius: 10px;
+        margin: 20px;
+        transition: all 2ms 2ms ease-out;
+      }
+      .img8:hover{
+        background: url(Guru\ 8.jpg);
+       
+        background-size: contain;
+        background-repeat: no-repeat;
+        flex-basis: 50%;
+        flex-grow: 1;
+        margin: 20px;
+      }
+      .img9{
+        background: url(Guru\ 9.png);
+       
+        background-size: contain;
+        background-repeat: no-repeat;
+        flex-basis: 50%;
+        flex-grow: 1;
+        border-radius: 10px;
+       
+        margin: 20px;
+        transition: all 2ms 2ms ease-out;
+      }
+      .img9:hover{
+        background: url(Guru\ 9.jpg);
+       
+        background-size: contain;
+        background-repeat: no-repeat;
+        flex-basis: 50%;
+        flex-grow: 1;
+        margin: 20px;
+      }
+   
+/* 
+container4
+ */
+
+ .container4{
+  display: flex;
+}
+.img10{
+  background: url(Guru\ 10.png);
+  height: 500px;
+  width: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-basis: 50%;
+  flex-grow: 1;
+  border-radius: 10px;
+  margin: 20px;
+  transition: all 2ms 2ms ease-out;
+}
+.img10:hover{
+  background: url(Guru\ 10.jpg);
+  height: 500px;
+  width: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-basis: 50%;
+  flex-grow: 1;
+  margin: 20px;
+}
+.img11{
+  background: url(Guru\ 11.png);
+ 
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-basis: 50%;
+  flex-grow: 1;
+  border-radius: 10px;
+  margin: 20px;
+  transition: all 2ms 2ms ease-out;
+}
+.img11:hover{
+  background: url(Guru\ 11.jpg);
+ 
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-basis: 50%;
+  flex-grow: 1;
+  margin: 20px;
+}
+.img12{
+  background: url(Guru\ 12.png);
+ 
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-basis: 50%;
+  flex-grow: 1;
+  border-radius: 10px;
+ 
+  margin: 20px;
+  transition: all 2ms 2ms ease-out;
+}
+.img12:hover{
+  background: url(Guru\ 12.jpg);
+ 
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-basis: 50%;
+  flex-grow: 1;
+  margin: 20px;
+}
+/* 
+cord button and content
+ */
+p{
+  margin-top: 430px;
+  padding: 20px;
+}
+button{
+  padding: 5px;
+  margin-top: 2px;
+  height: 35px;
+  width: 200px;
+  background-color: rgb(1, 153, 167);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+b{
+  display: block;
+}
+#containerFooter{
+  background-color: black;
+  color: white ;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px;
+  gap: 50px;
+}
+h2{
+  color: rgb(1, 153, 167) ;
+}
+
+.fourpoint{
+  height: 300px;
+ margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+img{
+  height: 200px;
+  width: 350px;
+  border-radius: 10px;
+}
+.imgone{
+  height: 210px;
+  width: 360px;
+  
+}
+.imgtwo{
+  height: 210px;
+  width: 360px;
+  
+}
+.imgthree{
+  height: 210px;
+  width: 360px;
+  
+}
+.imgfour{
+  height: 210px;
+  width: 360px;
+  
+}
